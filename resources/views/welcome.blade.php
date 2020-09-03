@@ -3,11 +3,11 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta property="og:image" content="public/img/118058ee9b1133bad39b0c4e5c731698.jpg">
+    <meta property="og:image" content="/public/img/118058ee9b1133bad39b0c4e5c731698.jpg">
 
     <title>@lang('main.title')</title>
-    <meta content="Прозрачные защитные решетки на окна из поликарбоната" name="descriptison">
-    <meta content="Прозрачные защитные решетки на окна из поликарбоната, поликарбонатные решетки, защитные решетки, решетки от выпадения детей" name="keywords">
+    <meta content="@lang('main.description')" name="description">
+    <meta content="@lang('main.keywords')" name="keywords">
 
     <!-- Favicons -->
     <link href="public/img/favicon.png" rel="icon">
@@ -46,7 +46,7 @@
                 <li><a href="#portfolio">@lang('main.header.portfolio')</a></li>
                 <li><a href="#contact">@lang('main.header.contacts')</a></li>
                 <li class="nav-item">
-                    <a href="{{ route('locale', __('main.header.set_lang')) }}">@lang('main.header.set_lang')</a>
+                    <a href="{{ route('locale', __('main.header.set_lang')) }}">{{strtoupper(__('main.header.set_lang'))}}</a>
                 </li>
             </ul>
         </nav><!-- .nav-menu -->

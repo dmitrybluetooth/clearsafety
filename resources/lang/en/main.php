@@ -2,6 +2,8 @@
 
 return [
     'title' => 'Transparent protective grilles for windows',
+    'description' => 'Transparent polycarbonate window protectors',
+    'keywords' => 'Transparent protective grilles for windows made of polycarbonate, polycarbonate grilles, protective grilles, grilles against falling out of children',
 
     'header' => [
         'home' => 'Home',
@@ -9,8 +11,8 @@ return [
         'why_us' => 'Why us',
         'portfolio' => 'Portfolio',
         'contacts' => 'Contacts',
-        'current_lang' => 'EN',
-        'set_lang' => 'RU',
+//        'current_lang' => 'EN',
+        'set_lang' => 'ru',
     ],
 
     'hero' => [
